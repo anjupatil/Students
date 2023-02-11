@@ -9,15 +9,42 @@
     <title>Document</title>
   </head>
   <body>
-    <button onclick="PrintStudentswithMap()">
-      Console log Students with Map
-    </button>
-    <button onclick="PrintStudentsbyForEach()">
-      Console log Students with foreach
-    </button>
-    <button onclick="addData()">Console New Data with 4th Student</button>
-    <button onclick="removeFailedStudent()">Remove Failed Student</button>
-    <button onclick="concatenateArray()">concatenateArray</button>
+    <h1>Project F2 Contest - Week 1</h1>
+    <div id="container">
+      <div>
+        <h2>Results with Map:</h2>
+        <div id="map-result"></div>
+        <button onclick="PrintStudentswithMap()">
+          Console log Students with Map
+        </button>
+      </div>
+
+      <div>
+        <h2>Results with forEach:</h2>
+        <div id="foreach-result"></div>
+        <button onclick="PrintStudentsbyForEach()">
+          Console log Students with foreach
+        </button>
+      </div>
+
+      <div>
+        <h2>Add Data Results:</h2>
+        <div id="add-data-result"></div>
+        <button onclick="addData()">Console New Data with 4th Student</button>
+      </div>
+
+      <div>
+        <h2>Remove Failed Student Results:</h2>
+        <div id="remove-failed-result"></div>
+        <button onclick="removeFailedStudent()">Remove Failed Student</button>
+      </div>
+
+      <div>
+        <h2>After Concate:</h2>
+        <div id="concatenatedArray"></div>
+        <button onclick="concatenateArray()">concatenateArray</button>
+      </div>
+    </div>
 
     <script src="./script.js"></script>
   </body>
